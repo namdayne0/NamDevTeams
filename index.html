@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NamDevTeams - Plugin Hệ Thống Team Chuyên Nghiệp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">NamDevTeams</div>
+            <ul>
+                <li><a href="#features">Tính Năng</a></li>
+                <li><a href="#setup">Cài Đặt</a></li>
+                <li><a href="#commands">Lệnh</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hệ Thống Team Tối Thượng Cho Server Của Bạn</h1>
+                <p>Nâng cao trải nghiệm cộng đồng với NamDevTeams - một plugin mạnh mẽ, đầy đủ tính năng và tối ưu hiệu
+                    năng cho Minecraft 1.20+.</p>
+                <a href="https://github.com/your-username/your-repo/releases" class="cta-button">Tải Về Ngay</a>
+            </div>
+        </section>
+
+        <section class="showcase">
+            <h2>Trải Nghiệm Trực Quan</h2>
+            <img src="https://i.imgur.com/your-panel-image.png" alt="Giao diện Team Panel" class="showcase-img">
+            <p>Giao diện (GUI) trực quan, dễ sử dụng giúp quản lý team chưa bao giờ dễ dàng hơn.</p>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Tại Sao Chọn NamDevTeams?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Quản Lý Team Toàn Diện</h3>
+                    <p>Tạo, giải tán, mời, kick, thăng cấp thành viên. Phân quyền rõ ràng giữa Owner, Moderator và
+                        Member.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Hệ Thống Home & Di Chuyển</h3>
+                    <p>Đặt một điểm tập kết chung cho team. Lệnh /team home với thời gian chờ 5 giây để chống lạm dụng
+                        trong giao tranh.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Đồng Minh & PvP</h3>
+                    <p>Xây dựng liên minh với các team khác. Tùy chỉnh bật/tắt sát thương đồng đội (Friendly Fire) ngay
+                        trong GUI.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Chat Team Riêng Tư</h3>
+                    <p>Kênh chat bí mật chỉ dành cho thành viên team, giúp phối hợp chiến thuật mà không bị đối thủ phát
+                        hiện.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Tùy Biến Mạnh Mẽ</h3>
+                    <p>Chỉnh sửa mọi tin nhắn, prefix, màu sắc, và cài đặt trong file config.yml. Hỗ trợ đầy đủ Hex
+                        Color.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Hiện Đại & Hiệu Năng</h3>
+                    <p>Hỗ trợ Folia, PlaceholderAPI và được viết với code sạch, đảm bảo hoạt động mượt mà và tốn ít tài
+                        nguyên.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="setup" class="setup">
+            <h2>Cài Đặt Nhanh Chóng</h2>
+            <ol>
+                <li>Tải file <code>NamDevTeams.jar</code> mới nhất.</li>
+                <li>Thả file vào thư mục <code>/plugins/</code> của server.</li>
+                <li>Nếu cần, cài đặt thêm <a href="https://www.spigotmc.org/resources/placeholderapi.6245/"
+                        target="_blank">PlaceholderAPI</a>.</li>
+                <li>Khởi động lại server và tùy chỉnh file <code>config.yml</code> theo ý muốn!</li>
+            </ol>
+        </section>
+
+        <section id="commands" class="commands">
+            <h2>Lệnh & Quyền Hạn</h2>
+            <details>
+                <summary>Nhấn vào đây để xem danh sách lệnh đầy đủ</summary>
+                <pre><code>
+/team create <tên> - Tạo team mới
+/team invite <tên> - Mời người chơi (Owner/Mod)
+/team join <tên> - Chấp nhận lời mời
+/team leave - Rời team
+/team kick <tên> - Kick thành viên (Owner/Mod)
+/team disband - Giải tán team (Owner)
+/team promote <tên> - Thăng cấp thành viên (Owner)
+/team demote <tên> - Hạ cấp phó team (Owner)
+/team chat - Bật/tắt chat team
+/team sethome - Đặt home cho team (Owner/Mod)
+/team home - Dịch chuyển về home
+/team delhome - Xóa home của team (Owner/Mod)
+/team ally add/accept/remove <tên> - Quản lý đồng minh
+... và nhiều lệnh khác!
+                </code></pre>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NamDevTeams. Phát triển bởi NamDev.</p>
+        <p>Đây là một plugin không chính thức và không liên quan đến Mojang AB.</p>
+    </footer>
+
+</body>
+
+</html>
